@@ -66,9 +66,10 @@ div p{
     /* padding-top: 25px; */
     float: left;
     margin-right: 20px;
+    max-width: 100%;
 }
 #annual{
-    margin-right: 80px;
+    margin-right: 90px;
 }
 h4{
     margin-top: 0px;
@@ -83,18 +84,104 @@ h4{
 
 #pay{
     color: white;
-    background-color: hsl(245, 75%, 52%);
+    /* background-color: hsl(245, 75%, 52%); */
     margin: 30px 50px 30px 50px;
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 10px;
     box-shadow: 0 20px 10px 0 hsla(245, 75%, 52%, 0.20);
 }
 #cancel{
+    color: hsl(224, 23%, 55%);
     font-weight: bold;
     /* margin-bottom: 25px; */
     padding-top: 10px;
     padding-bottom: 50px;
 }
-div#change a{
+a:link{
     color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+a:hover{
+    color: hsl(260, 100%, 70%);
+    cursor: pointer;
+}
+/* button {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    
+} */
+
+button {
+	background: none;
+    background-color: hsl(245, 75%, 52%);
+    width: 100%;
+	color: inherit;
+	border: none;
+	padding: 15px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: hsl(260, 100%, 70%);
+    color: white;
+}
+/* div#pay a{
+    color: white;
+    text-decoration: none;
+}
+
+div#pay a:hover {
+    background-color: hsl(260, 100%, 70%);
+} */
+div#cancel a{
+    color: hsl(224, 23%, 55%);
+}
+
+div#cancel a:link{
+    color:hsl(224, 23%, 55%);
+    text-decoration: none;
+
+}
+
+div#cancel a:hover{
+    color: hsl(223, 47%, 23%);
+    /* text-decoration: none; */
+
+}
+
+
+@media screen and (max-width:450px) {
+    body{
+        width: 325px;
+        margin: 75px auto;
+        /* margin-right: 25px;
+        margin-left: 25px; */
+    }
+    div p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #pay, #plan {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    #plan{  
+    padding-left: 15px;
+    padding-right: 15px;
+
+    }
+    #heroImage img{
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    #annual{
+        margin-right: 20px;
+    }
+    #change{
+        margin-left: 5px;
+    }
+
 }
