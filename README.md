@@ -115,7 +115,7 @@ Users should be able to:
 
 - Website - [Pankaj Pawar](https://www.twitter.com/DamnItAzriel)
 - Frontend Mentor - [@DamnItAzriel](https://www.frontendmentor.io/profile/DamnItAzriel)
-- Twitter - [@yDamnItAzriel](https://www.twitter.com/DamnItAzriel)
+- Twitter - [@DamnItAzriel](https://www.twitter.com/DamnItAzriel)
 
 ## Acknowledgments
 I would like to thank frontend mentor who created these projects which helps begineers like me to practice their HTML and CSS skills.
